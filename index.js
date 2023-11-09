@@ -6,7 +6,7 @@ console.log("The driver's name is " + hacker1);
 //1.3
 let hacker2 = "Jane";
 //1.4
-console.log("The driver's name is " + hacker2);
+console.log("The navigator's name is " + hacker2);
 
 // Iteration 2: Conditionals
 //2.1
@@ -32,19 +32,19 @@ let upperCaseHacker1Name = " ";
 console.log(upperCaseHacker1Name);
 
 //3.2
-let reverseHacker1Name = " ";
+let reverseHacker2Name = " ";
 
- for(i = hacker1Length - 1; i >= 0; i--)
+ for(i = hacker2Length - 1; i >= 0; i--)
    {
-     reverseHacker1Name += hacker1[i];
+     reverseHacker2Name += hacker2[i];
   }  
   
 
-console.log(reverseHacker1Name);
+console.log(reverseHacker2Name);
 
 //3.3
 
-console.log(`Yo, the navigator goes first, definitely.`);
+console.log(`Yo, ${hacker2},the navigator goes first, definitely.`);
 
 /*Iteration 1: Names and Input
 1.1 Create a variable hacker1 with the driver's name.
