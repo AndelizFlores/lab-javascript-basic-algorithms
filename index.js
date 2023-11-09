@@ -13,14 +13,17 @@ console.log("The navigator's name is " + hacker2);
 let hacker1Length = hacker1.length;
 let hacker2Length = hacker2.length;
 
+if(hacker1Length > hacker2Length){
+
+  console.log(`The driver has the longest name, it has ${hacker1Length} characters1`);
+}
+else if (hacker2Length > hacker1Length){
+  console.log(`It seems that the navigator has the longest name, it has ${hacker2Length} characters.`);
+}
  console.log("Wow, you both have equally long names, " + hacker1Length + " characters John" + " and "  + hacker2Length + " characters Jane!");
 
 // Iteration 3: Loops
 //3.1
-//without LOOP
-console.log(hacker1[0].toUpperCase() + " " + hacker1[1].toUpperCase() + " " + hacker1[2].toUpperCase() + " " + hacker1[3].toUpperCase());
-
-//With LOOP
 let upperCaseHacker1Name = " ";
 
  for(i = 0; i < hacker1Length; i++)
